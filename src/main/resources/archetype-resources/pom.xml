@@ -347,22 +347,10 @@
             <version>${guava.version}</version>
         </dependency>
 
-        <!-- security begin -->
         <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring</artifactId>
-            <version>${shiro.version}</version>
+            <groupId>com.slyak</groupId>
+            <artifactId>spring-data-jpa-extra</artifactId>
+            <version>1.1.5</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-ehcache</artifactId>
-            <version>${shiro.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-codec</groupId>
-            <artifactId>commons-codec</artifactId>
-            <version>1.8</version>
-        </dependency>
-        <!-- security end -->
     </dependencies>
 </project>
